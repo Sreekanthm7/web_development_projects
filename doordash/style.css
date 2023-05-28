@@ -1,0 +1,934 @@
+@font-face {
+    font-family: 'doordash-bold';
+    src: url(assets/font/TTNorms-Bold.woff2);
+}
+@font-face {
+    font-family: 'doordash-medium';
+    src: url(assets/font/TTNorms-Medium.woff2);
+}
+@font-face {
+    font-family: 'doordash-regular';
+    src: url(assets/font/TTNorms-Regular.woff2);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.doordash-header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: 16px;
+}
+.header-account{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 24px;
+}
+.sign-in{
+    position: relative;
+    display: inline-flex;
+    min-height: 40px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    background-color: transparent;
+}
+.sign-in a{
+    padding: 0px 16px;
+    font-weight: 700;
+    font-family: 'doordash-medium';
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.04ch;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.sign-up{
+    position: relative;
+    display: inline-flex;
+    min-height: 40px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    border-radius: 1000px;
+    background-color: white;
+}
+.sign-up a{
+    padding: 0px 16px;
+    font-weight: 700;
+    font-family: 'doordash-medium';
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    color: #494949;
+}
+.background{
+    width: 100vw;
+    background-color: rgb(247, 247, 247);
+    min-height: 420px;
+}
+.background-contents{
+    background-image: url(assets/img/header-background.avif);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 191px;
+    padding-bottom: 205px;
+}
+.header-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doordash-text-img{
+    margin-left: 12px;
+}
+.header-body-text{
+    font-size: 32px;
+    font-family: 'doordash-bold';
+    color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    transform: translateY(-4px);
+}
+.header-body-text p{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    max-width: 334px;
+    letter-spacing: -0.04ch;
+    line-height: 1.23;
+}
+.header-body-search-bar{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    max-width: 312px;
+    min-height: 48px;
+    position: relative;
+    width: 100%;
+    transform: translateY(-4px);
+
+}
+.header-body-btn{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    padding: 4px 12px;
+    border: none;
+    box-shadow: rgb(214 214 214) 0px 0px 0px 1px inset;
+    background-color: rgb(255, 255, 255);
+}
+
+.search-icon-doordash{
+    max-width: 100%;
+    margin-right: 8px;
+    transform: translateY(2px);
+}
+.search-text{
+    margin: 0px 8px 0px 0;
+}
+.input-text{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0ch;
+    font-weight: 500;
+    font-family: 'doordash-medium';
+    width: 100%;
+    border: none;
+
+}
+.right-arrow{
+    position: absolute;
+    max-width: 100%;
+    width: 40px;    
+    margin: 0px;
+    display: inline-flex;
+    min-height: 40px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(73, 73, 73);
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    right: 3px;
+    top: 3px;
+    transform: translateX(-1px);
+}
+.header-body-search-bar-two{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    transform: translateY(-4px);
+}
+.header-body-btn-two{
+    position: relative;
+    margin: 0 auto;
+    max-width: 735px;
+    width: 408px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    border: none;
+    box-shadow: rgb(214, 214, 214) 0px 0px 0px 1px inset;
+    background-color: rgb(255, 255, 255);
+    min-height: 48px;
+}
+.map-icon{
+    max-width: 100%;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+.sign-in-saved-address{
+    text-align: center;
+    margin: 16px;
+    font-size: 16px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0ch;
+    display: block;
+    transform: translateY(-4px);
+}
+.sign-in-saved-address a{
+    color: rgb(255, 255, 255);
+
+}
+.content-page-one{
+    margin: 40px 0;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.doordash-content-one{
+    padding: 16px;
+    display: flex;
+}
+.content-one-img{
+    margin-right: 32px;
+}
+.content-one-img img{
+    width: 88px;
+    height: 88px;
+}
+.content-one-text{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    max-width: 250px;
+}
+.content-one-text h2{
+    font-size: 32px;
+    color: #191919;
+    font-family: 'doordash-bold';
+    font-size: 700;
+    line-height: 40px;
+    letter-spacing: -0.04ch;
+    text-transform: none;
+    color: rgb(25, 25, 25);
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.content-one-text h3{
+    font-size: 18px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    color: rgb(25, 25, 25);
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.content-one-btn{
+    border: 0;
+    padding: 0;
+    margin: 12px 0px 0px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.content-one-btn p{
+    font-size: 14px;
+    font-family: 'doordash-bold';
+    line-height: 20px;
+    letter-spacing: -0.04ch;
+    color: rgb(235, 23, 0);
+    margin: 0;
+    padding: 0;
+}
+.arrow-right-img{
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+    transform: scale(0.66666);
+    transform-origin: center center;
+}
+.all-in-one-app-body{
+    margin-bottom: -288px;
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+.every-flavor{
+    background: rgb(255, 240, 237);
+    width: 100%;
+
+}
+.every-flavor-body{
+    padding: 336px 0px 96px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.all-in-one-img img{
+    width: 100%;
+}
+.all-in-one-img{
+    margin-left: 64px;
+    max-width: 712.73px;
+}
+.all-in-one-content{
+    max-width: 400px;
+    padding-left: 16px;
+    padding-right: 81.6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.all-in-one-text h2{
+    max-width: 100%;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-family: 'doordash-bold';
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.04ch;
+    display: block;
+    white-space: pre-line;
+}
+.all-in-one-text p{
+    font-size: 14px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0ch;
+    display: block;
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+.content-two-btn{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    min-height: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 1000px;
+    border: none;
+    text-align: center;
+    background-color: rgb(235, 23, 0);
+    color: rgb(255, 255, 255);
+    max-width: 101.5px;
+}
+.content-two-btn a{
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 12px;
+    font-family: 'doordash-bold';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0ch;
+    max-width: 100%;
+}
+.every-flavor-img{
+    max-width: 712.73px;
+    margin-right: 64px;
+
+}
+.every-flavor-img img{
+    width: 100%;
+}
+.every-flavor-content{
+    max-width: 400px;
+    padding-left: 16px;
+    padding-right: 105.6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+.every-flavor-text h2{
+    max-width: 100%;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-family: 'doordash-bold';
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.04ch;
+    display: block;
+}
+.every-flavor-text p{
+    font-size: 14px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0ch;
+    display: block;
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+.every-flavor-btn{
+    position: relative;
+    max-width: 130px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 1000px;
+    border: none;
+    background-color: rgb(235, 23, 0);
+}
+.every-flavor-btn a{
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 12px;
+    font-family: 'doordash-bold';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0ch;
+    max-width: 100%;
+}
+.doordash-footer{
+    padding: 0px 20px;
+    background-color: rgb(25, 25, 25);
+
+}
+.footer-one{
+    display: flex;
+    flex-direction: row;
+    max-width: 1160px;
+    margin: auto;
+
+}
+.top-cities{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex: 1 1 0%;
+    
+}
+.top-cities h2{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+}
+.top-cities-section a{
+    font-size: 14px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+    margin-top: 8px;
+}
+.top-cities-one{
+    display: flex;
+    flex-direction: column;
+}
+.top-cities-two{
+    display: flex;
+    flex-direction: column;
+}
+.top-cities-three{
+    display: flex;
+    flex-direction: column;
+}
+.cuisines-near-you{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex: 1 1 0%;
+}
+.cuisines-near-you h2{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+.cuisines-one{
+    display: flex;
+    flex-direction: column;
+}
+.cuisines-two{
+    display: flex;
+    flex-direction: column;
+}
+.cuisines-section a{
+    font-size: 14px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 20px;
+    color:rgb(196, 196, 196);
+    text-decoration: none;
+    margin-top: 8px;
+}
+.footer-two{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 1160px;
+    margin: auto;
+}
+.footer-two-section{
+    flex-direction: column;
+    text-align: center;
+    flex: 1 1 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.know-us{
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.know-us h2{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+}
+.know-us a{
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+}
+.help-you{
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.help-you h2{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+}
+.help-you a{
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+
+}
+.doing-business{
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.doing-business h2{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+}
+.doing-business a{
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: 'doordash-medium';
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+
+}
+.footer-two-buttons{
+    display: flex;
+    padding-top: 32px;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-two-buttons a{
+    opacity: 0.7;
+}
+.app-store{
+    padding: 2px 8px;
+    border-radius: 8px;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-two-buttons a:nth-child(2){
+    opacity: 0.7;
+    margin-top: 12px;
+}
+.google-play{
+    padding: 2px 8px;
+    border-radius: 8px;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-three{
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column-reverse;
+    max-width: 1160px;
+    margin: auto;
+}
+.footer-three-text{
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-three-text a{
+    margin-left: 16px;
+    font-size: 12px;
+    font-family: 'doordash-regular';
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+}
+.footer-three-icons a{
+    margin-left: 12px;
+}
+@media screen and (min-width: 320px) {
+    .header-logo{
+        display: none;
+    }
+    .header-body-search-bar-two{
+        display: none;
+    }
+    .sign-in-saved-address{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .background-contents{
+        padding-top: 223px;
+        padding-bottom: 227px;
+
+    }
+    .header-body-search-bar{
+        display: none;
+    }
+    .header-body-search-bar-two{
+        display: block;
+    }
+    .sign-in-saved-address{
+        display: block;
+    }
+    .content-one-img{
+        margin-right: 64px;
+    }
+    .content-one-img img{
+        height: 124px;
+        width: 124px;
+    }
+    .content-page-one{
+        margin: 32px 0;
+        display: flex;
+        align-items: center;
+    }
+    .all-in-one-app-body{
+        flex-flow: row nowrap;
+        margin-bottom: -20px;
+    }
+    .all-in-one-content{
+        flex: 1 1 0%;
+        margin-left: 64px;
+        margin-bottom: 96px;
+        padding: 0;
+        margin-top: 0;
+    }
+    .all-in-one-img{
+        flex: 2 1 0%;
+        margin-left: 64px;
+    }
+    .every-flavor-body{
+        padding: 96px 0px;
+        flex-flow: row nowrap;
+        max-width: 1184px;
+        margin: 0 auto;
+    }
+    .every-flavor-img{
+        flex: 2 1 0%;
+    }
+    .every-flavor-content{
+        flex: 1 1 0%;
+        margin-right: 64px;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 94px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer-one{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-cities-section{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+    .top-cities-one{
+        flex: 1 1 0%;
+    }
+    .top-cities-two{
+        flex: 1 1 0%;
+    }
+    .top-cities-three{
+        flex: 1 1 0%;
+    }
+    .top-cities h2{
+        text-align: left;
+    }
+    .cuisines-section{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+    .cuisines-one{
+        flex: 1 1 0%;
+    }
+    .cuisines-two{
+        flex: 1 1 0%;
+    }
+    .cuisines-near-you h2{
+        text-align: left;
+    }
+    .footer-two-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-two-buttons{
+        padding-top: 72px;
+    }
+    .know-us a{
+        text-align: left;
+    }
+    .help-you a{
+        text-align: left;
+
+    }
+    .doing-business a{
+        text-align: left;
+    }
+    .doing-business h2{
+        text-align: left;
+    }
+    .footer-three{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .background-contents{
+        padding-top: 304px;
+        padding-bottom: 276px;
+    }
+    .header-logo{
+        display: flex;
+    }
+    .header-account{
+        transform: translateY(-29px);
+    }
+    .doordash-icon{
+        display: none;
+    }
+    .header-body-text p{
+        font-size: 64px;
+        max-width: 668px;
+        line-height: 76px;   
+        transform: translateY(-1px);
+ 
+    }
+    .header-body-search-bar-two{
+        transform: translateY(-1px);
+    }
+    .sign-in-saved-address{
+        transform: translateY(-1px);
+    }
+    .all-in-one-app-body{
+        margin-bottom: -80px;
+    }
+    .every-flavor-body{
+        padding: 144px 0px 96px;
+    }
+    .content-two-btn{
+       max-width: 120.56px;
+        height: 40px;
+        padding: 0 5px;
+    }
+    .content-two-btn a{
+        font-size: 16px;
+    }
+    .every-flavor-btn{
+        width: 154.17px;
+        height: 40px;
+    }
+    .every-flavor-btn{
+        font-size: 16px;
+    }
+    .footer-one{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-two{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-two-media-btn{
+        padding-top: 32px;
+        flex: 1 1 0%;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .footer-two-buttons{
+        padding: 0;
+    }
+    .footer-two-section{
+        display: flex;
+        flex: 1 1 0%;
+        justify-content: space-between;
+
+    }
+    }
+@media screen and (min-width: 1184px){
+    .content-page-one{
+        margin: 96px 0px;
+        flex-direction: row;
+        padding: 12px;
+        align-items: flex-start;
+    }
+    .doordash-content-one{
+        flex-flow: column nowrap;
+        margin: 0px 17px;
+        min-width: 360px;
+        display: flex;
+         
+    }
+    .content-one-img img{
+        height: 154px;
+        width: 154px;
+    }
+    .content-one-text h3{
+        margin-top: 8px;
+        text-align: center;
+    }
+    .content-one-img{
+        display: flex;
+        justify-content: center;
+    }
+    .content-one-text h2{
+        text-align: center;
+    }
+    .content-one-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .content-one-btn p{
+        font-size: 18px;
+    }
+    .all-in-one-app-body{
+        max-width: 1184px;
+        margin-inline: auto;
+        margin-bottom: -28px;
+    }
+    .every-flavor-body{
+        padding: 96px 0px;
+    }
+    .all-in-one-text h2{
+        font-size: 40px;
+    }
+    .all-in-one-text p{
+        font-size: 18px;
+    }
+    .all-in-one-content{
+        flex: 4 1 0%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .all-in-one-img{
+        flex: 7 1 0%;
+    }
+    .every-flavor-text h2{
+        font-size: 40px;
+        white-space: nowrap;
+        margin-bottom: 12px;
+    }
+    .every-flavor-text p{
+        font-size: 18px;
+    }
+    .every-flavor-content{
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .right-arrow{
+        background: rgb(235, 23, 0);
+        color: rgb(255, 255, 255);
+        
+    }
+}
