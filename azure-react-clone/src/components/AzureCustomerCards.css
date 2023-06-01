@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.azure-customer-cards {
+  margin-top: 5.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-cards-img img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.customer-card-text {
+  color: #fff;
+  width: 100%;
+}
+
+.customer-card-text-container {
+  background-color: #000;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.customer-card-text-container h3 {
+  font-size: 18px;
+  margin: 0px 0px 8px;
+  font-family: "latest1";
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.case-study a {
+  margin: 8px 0px;
+  padding: 0px 27px 0px 0px;
+  font-size: 16px;
+  color: #50e6ff;
+}
+.case-study {
+  text-align: left;
+}
+.arrow {
+  position: relative;
+}
+.arrow::after {
+  font-family: "mwfluenticon";
+  content: "";
+  position: absolute;
+  left: 0.4375em;
+  top: calc(18% + 0.0625em);
+}
+
+.case-study a:hover {
+    text-decoration: underline;
+    
+}
+.arrow:hover {
+    left: 2px;
+}
+
+@media screen and (min-width: 1440px) {
+  .azure-customer-cards {
+    position: relative;
+  }
+  .customer-card-text {
+    position: absolute;
+    bottom: 10%;
+    width: 71%;
+  }
+  .customer-card-text-container {
+    max-width: 1600px;
+    width: 85%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .customer-card-text-container h3 {
+    font-size: 21px;
+  }
+}

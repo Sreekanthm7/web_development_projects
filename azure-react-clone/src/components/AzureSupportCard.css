@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.azure-support-card {
+    margin: 0px 0px 48px;
+    padding: 0px 12px;
+    max-width: 100%;
+}
+
+.azure-support-card-container {
+    color: #fff;
+    height: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgba(0,0,0,.13), 0 0.0625rem 0.125rem 0 rgba(0,0,0,.11);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.support-card-img {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: left;
+
+}
+
+.support-card-img img {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+}
+
+.support-card-content {
+    padding: 24px 24px 0px;
+    text-align: left;
+}
+
+.support-card-content h2 {
+    margin: 0px 0px 8px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'latest1';
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: underline;
+}
+
+.support-card-content p {
+    margin: 0px 0px 16px;
+    font-size: 16px;
+    font-family: 'latest1';
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.support-blank {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+
+@media screen and (min-width: 1440px) {
+    .support-card-content h2 {
+        font-size: 21px;
+        font-family: 'latest2';
+        white-space: nowrap;
+    }
+}

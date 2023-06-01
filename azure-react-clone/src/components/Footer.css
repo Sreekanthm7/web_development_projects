@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.azure-footer {
+  background-color: #f4f5f6;
+  color: #1a1a1a;
+  padding: 48px 0 36px;
+}
+
+.social-media {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 18px;
+  padding-right: 18px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.get-azure-mobile-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: #eaebec;
+  color: #4c4c51;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.get-azure-mobile-app img {
+  width: 24px;
+  height: 24px;
+}
+
+.get-azure-mobile-app span {
+  margin-left: 12px;
+  font-size: 14px;
+  font-family: "latest2";
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.social-media-list {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  margin-left: 12px;
+  list-style: none;
+}
+
+.social-media-list li {
+  margin-left: 24px;
+}
+
+.social-media-list li:nth-child(1) {
+  margin-left: 0;
+}
+.footer-contents-mobile {
+  max-width: 1600px;
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.footer-contents-mobile ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  text-align: left;
+  border: 1px solid transparent;
+  background-color: #eaebec;
+  padding: 12px 24px;
+  width: 100%;
+  margin-top: 36px;
+}
+
+.footer-contents-mobile ul li:nth-child(1) {
+  margin: 0;
+}
+
+.footer-contents-mobile ul li p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
+  font-family: "latest2";
+  color: #1a1a1f;
+}
+
+.plus-btn {
+  position: relative;
+}
+
+.plus-btn::after {
+  font-family: "mwfluenticon";
+  content: "\002B";
+  font-size: 20px;
+  color: #4c4c51;
+  padding-left: 12px;
+  line-height: 1;
+  transform: translateY(-2px);
+  font-weight: 600;
+}
+
+.footer-bottom-list {
+  margin: 36px 0px 0px;
+  padding: 0px 18px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.change-language-container p {
+  margin-bottom: 4px;
+}
+
+.drop-down {
+  color: #1a1a1f;
+  line-height: 1.2;
+  font-size: 14px;
+  padding: 5px;
+  height: 36px;
+  width: 100%;
+  max-width: 30ch;
+  border: 1px solid #747479;
+  background-color: #ffffff;
+}
+
+.azure-footer-links {
+  margin-top: 36px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.azure-footer-links ul {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.azure-footer-links ul li {
+  color: #1a1a1f;
+  display: block;
+  padding: 2px 0;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0px 0px 12px 16px;
+  font-size: 12px;
+  font-family: "latest1";
+}
+.footer-content-desktop {
+    max-width: 1600px;
+    margin-top: 36px;
+    display: grid;
+    column-gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 18px;
+    padding-right: 18px;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: left;
+}
+
+.footer-content-desktop-list h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    font-family: 'latest2';
+}
+.footer-content-desktop-list ul {
+    margin-top: 12px;
+    list-style: none;
+}
+
+.footer-content-desktop-list li {
+    color: #1a1a1f;
+    padding: 2px 0;
+    font-size: 12px;
+    font-family: 'latest1';
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 12px;
+}
+
+.get-azure-mobile-app span:hover{
+  text-decoration: underline;
+}
+
+.footer-content-desktop-list li:hover{
+  text-decoration: underline;
+}
+
+.azure-footer-links li:hover{
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 320px) {
+    .footer-content-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-bottom-list {
+    display: grid;
+    grid-template-columns: auto fit-content(65%);
+  }
+  .footer-contents-mobile {
+    display: none;
+  }
+  .footer-content-desktop{
+    display: grid;
+  }
+  .social-media-list {
+    margin-top: 7px;
+    margin-left: 36px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .footer-content-desktop-list h3 {
+        margin-bottom: 16px;
+    }
+}

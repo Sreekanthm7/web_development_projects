@@ -1,0 +1,366 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.azure-mobile-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  align-items: center;
+  height: 78px;
+  transform: translateY(3px);
+}
+.azure-hamburger {
+  display: flex;
+  min-width: 130px;
+}
+.hamburger img {
+  width: 20px;
+  height: 15px;
+}
+.hamburger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  line-height: 1;
+  padding: 1px 6px;
+  transform: translateY(-3px);
+}
+
+.azure-text a {
+  font-size: 18px;
+  line-height: 44px;
+  font-family: "latest2";
+  text-decoration: none;
+  color: #1a1a1f;
+  font-weight: 600;
+}
+
+
+
+.azure-text {
+  margin-left: 4px;
+  transform: translateY(-3px);
+}
+.azure-logo-mobile img {
+  width: 32px;
+  height: 32px;
+}
+.azure-logo-mobile {
+  transform: translate(-2px, -2px);
+}
+.search-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  line-height: 1;
+  padding: 1px 6px;
+  transform: translateY(-1px);
+}
+.search-logo img {
+  height: 16px;
+  width: 16px;
+  transform: translateY(7px);
+}
+.search-sign-in {
+  display: flex;
+}
+
+.sign-in a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #1a1a1f;
+  font-family: "latest1";
+}
+.sign-in {
+  padding: 20px;
+  transform: translateY(-4px);
+}
+
+.azure-tablet-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid transparent;
+  height: 55px;
+}
+.nav-tablet-header {
+  display: flex;
+  align-items: center;
+  background-color: inherit;
+  border: 0;
+  padding: 0 12px;
+  width: auto;
+  margin-right: auto;
+  height: 53px;
+}
+.azure-logo-tablet img {
+  width: 24px;
+  height: 24px;
+}
+.azure-logo-tablet {
+  transform: translate(-1px, 2px);
+}
+.logo-azure-tablet {
+  display: flex;
+  align-items: center;
+}
+.azure-text-tablet a {
+  font-size: 18px;
+  line-height: 44px;
+  font-family: "latest2";
+  text-decoration: none;
+  color: #1a1a1f;
+  font-weight: 600;
+}
+.azure-text-tablet {
+  margin-left: 11px;
+  transform: translateY(-1px);
+}
+
+.nav-tablet-header ul {
+  display: inline-flex;
+  margin-left: 12px;
+  background-color: inherit;
+  list-style: none;
+}
+
+.nav-tablet-header ul li {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  margin: 0;
+  font-size: 14px;
+}
+
+.nav-buttons {
+  background-color: transparent;
+  border: 0;
+  text-align: left;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 20px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-buttons a {
+  font-family: "latest1";
+  text-decoration: none;
+  font-size: 13px;
+  color: #1a1a1f;
+}
+
+.nav-buttons img {
+  width: 8px;
+  height: 8px;
+  margin: 5px 0 0 4px;
+}
+.tablet-search img {
+  width: 13px;
+  height: 13px;
+}
+
+.tablet-search {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  line-height: 1;
+  padding: 1px 6px;
+  transform: translate(-3px, 0px);
+}
+.sign-in-more {
+  display: flex;
+  align-items: center;
+}
+
+.more-icon {
+  cursor: pointer;
+  font-size: 13px;
+  padding: 15px 8px;
+  transform: translate(-1px, 1px);
+}
+
+.more-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.sign-in-tablet {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.sign-in-tablet a {
+  text-decoration: none;
+  font-size: 13px;
+  padding: 20px 8px;
+  font-family: "latest1";
+  color: #1a1a1f;
+  transform: translateX(1px);
+}
+.azure-desktop-search {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+  width: 120px;
+}
+.azure-search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.azure-search-container input{
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border-color: #747479;
+  color: #4c4c51;
+  font-size: 13px;
+  padding-left: 12px;
+  padding-right: 24px;
+  min-height: 32px;
+  border: 1px solid #747479;
+  width: 100%;
+}
+
+.search-btn-desktop {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 8px;
+  top: 3px;
+  border: 0;
+  background-color: transparent;
+}
+.search-btn-desktop img {
+  width: 14px;
+  height: 14px;
+}
+
+.azure-desktop-support {
+  display: flex;
+  align-items: center;
+
+}
+.azure-desktop-support ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.azure-desktop-support li {
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 13px;
+  text-align: center;
+  padding: 20px 8px;
+  font-family: 'latest1';
+  color: #1a1a1f;
+}
+.free-acount-green-btn {
+  background-color: #89c402;
+  border: 1px solid #6f9e02;
+  border-radius: 4px;
+  color: #1a1a1f;
+  display: inline-block;
+  font-size: 12px;
+  padding: 9px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'latest1';
+
+}
+
+.nav-buttons:hover{
+  text-decoration: underline;
+  color: #000;
+}
+
+.azure-desktop-support li:hover{
+  text-decoration: underline;
+  color: #000;
+}
+
+.free-acount-green-btn:hover{
+  text-decoration: underline;
+  color: #000;
+  background-color: #b6eb39;
+}
+@media screen and (min-width: 320px) {
+  .azure-tablet-header {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .azure-mobile-header {
+    display: none;
+  }
+  .azure-tablet-header {
+    display: flex;
+  }
+
+  .azure-desktop-search{
+    display: none;
+  }
+  .azure-desktop-support {
+    display: none;
+  }
+  .azure-text-tablet a:hover{
+    text-decoration: underline;
+    color: black;
+  }
+
+  @media screen and (min-width: 1084px) {
+    .tablet-search {
+      display: none;
+    }
+    .sign-in-more {
+      display:  none;
+    }
+
+    .azure-desktop-search{
+      display: block;
+    }
+    .azure-desktop-support {
+      display: block;
+    }
+    .azure-text-tablet {
+      margin-left: 24px;
+    }
+    .azure-tablet-header{
+      height: 67px;
+    }
+    .nav-tablet-header ul {
+      margin-left: 24px;
+    }
+    .azure-desktop-search {
+      margin-right: 14px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .nav-tablet-header ul {
+      margin-left: 24px;
+    }
+    .azure-text-tablet {
+      margin-left: 23px;
+    }
+    .azure-tablet-header {
+      height: 54px;
+    }
+   
+
+  }
+}

@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.developer-stories {
+  margin-top: 1px;
+  margin-bottom: 1rem;
+}
+
+.developer-stories img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.developer-stories-content {
+  background-color: #000;
+  color: #fff;
+}
+
+.developer-stories-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+.developer-stories-content-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.developer-stories-content-container h2 {
+  color: #fff;
+  font-size: 19px;
+  margin: 0px 0px 8px;
+  font-family: "latest2";
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.developer-stories-btn-container {
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.watch-story {
+  margin: 16px 24px 16px 0px;
+  padding: 10px 12px 10px 35px;
+  background-color: #0078d4;
+  color: #fff;
+  font-weight: 600;
+  border: 0.125rem solid transparent;
+  border-radius: 0.125rem;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1;
+  font-family: "latest2";
+  width: 216px;
+}
+
+.play-btn {
+  position: relative;
+}
+
+.play-btn::before {
+  left: -1.5rem;
+  content: "";
+  font-family: "mwfluenticon";
+  font-weight: 400;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5em;
+}
+
+.more-developers-stories-btn {
+  font-size: 16px;
+  color: #50e6ff;
+  padding: 8px 27px 8px 0px;
+  font-family: "latest2";
+}
+
+.arrow {
+  position: relative;
+}
+.arrow::after {
+  font-family: "mwfluenticon";
+  content: "";
+  position: absolute;
+  left: 0.4375em;
+  top: calc(18% + 0.0625em);
+  transform: translateY(-2px);
+}
+
+.watch-story:hover {
+  background-color: #0462ab;
+}
+.more-developers-stories-btn span:hover {
+  text-decoration: underline;
+}
+@media screen and (min-width: 768px) {
+  .developer-stories-btn-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .developer-stories {
+    position: relative;
+  }
+
+  .developer-stories-content {
+    bottom: 56px;
+    width: 50%;
+    left: 74px;
+    padding: 0px 31px;
+    position: absolute;
+  }
+  .developer-stories-btn-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .developer-stories-content {
+        width: 60%;
+        max-width: 1600px;
+        margin-inline: auto;
+    }
+    .developer-stories-content-container h2 {
+        font-size: 24px;
+    }
+}

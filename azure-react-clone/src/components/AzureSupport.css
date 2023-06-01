@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.azure-support {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.azure-support-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1024px) {
+    .azure-support-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }   
+}
+
+@media screen and (min-width: 1084px) {
+    .azure-support-container {
+        width: 90%;
+        padding-right: 5%;
+        padding-left: 5%;
+        box-sizing: content-box;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .azure-support {
+        margin-top: 4.5rem;
+    }
+    .azure-support-container {
+        max-width: 1600px;
+        margin-inline: auto;
+    }
+}

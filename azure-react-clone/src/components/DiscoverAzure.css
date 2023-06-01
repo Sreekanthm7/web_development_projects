@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.discover-azure {
+  margin-bottom: 1rem;
+}
+
+.discover-azure-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.discover-azure-heading {
+  padding: 24px 0px;
+  text-align: left;
+}
+
+.discover-azure-heading h2 {
+  font-size: 19px;
+  margin: 0px 0px 8px;
+  font-family: "latest2";
+  color: #000000;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 0 12px;
+}
+
+.discover-azure-card-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .discover-azure-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .discover-azure-heading {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .discover-azure-card-container {
+    max-width: 1600px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .discover-azure-container {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .discover-azure {
+    margin-bottom: 3rem;
+  }
+}

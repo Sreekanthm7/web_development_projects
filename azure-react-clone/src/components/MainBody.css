@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.on-premise-hybrid {
+  margin: 16px 0px;
+  padding: 8px 0px 16px;
+}
+
+.on-premise-hybrid-container {
+  width: 100%;
+  margin-inline: auto;
+  padding: 0px 12px;
+}
+
+.on-premise-hybrid-container h2 {
+  font-size: 19px;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  font-family: "latest2";
+  text-align: left;
+}
+.hybrid-data-container {
+  margin: 0px 0px 4px;
+}
+
+.hybrid-data {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.new-to-azure {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 16px 24px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  border: 0.0625rem solid transparent;
+}
+
+.new-to-azure-container {
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+  transform: translate(-6px, -5px);
+}
+.new-to-azure-container p {
+  font-size: 16px;
+  font-family: "latest1";
+}
+
+.new-to-azure-container a {
+  background-color: transparent;
+  color: #0078d4;
+  border-color: #0078d4;
+  display: inline-block;
+  font-weight: 600;
+  border: 0.125rem solid #0078d4;
+  border-radius: 0.125rem;
+  text-decoration: none;
+  padding: 0.625rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  font-family: "latest1";
+  transform: translateX(10px);
+}
+.products-service-heading {
+  padding: 72px 0px 0px;
+  transform: translateY(-5px);
+}
+.products-service-heading-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 12px;
+}
+
+.products-service-heading-container h2 {
+  font-size: 19px;
+  margin: 0px 0px 8px;
+  font-family: "latest2";
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.blank-container {
+  padding: 48px 0px 0px;
+}
+
+.see-all-products-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 24px 12px;
+  text-align: left;
+}
+
+.see-all-products-container a {
+  margin: 8px 0px;
+  padding: 0px 27px 0px 0px;
+  color: #0067b8;
+  font-size: 16px;
+  font-family: "latest1";
+  font-weight: 600;
+}
+
+.arrow {
+  position: relative;
+}
+.arrow::after {
+  font-family: "mwfluenticon";
+  content: "";
+  position: absolute;
+  left: 0.4375em;
+  top: calc(18% + 0.0625em);
+}
+
+.customer-innovating {
+  margin-top: 1rem;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  transform: translateY(17px);
+}
+
+.customer-innovation-container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.customer-innovation-container h2 {
+  font-size: 19px;
+  margin: 0px 0px 8px;
+  font-family: "latest2";
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.azure-sticky-header {
+  opacity: 100%;
+  pointer-events: auto;
+  z-index: 999;
+  box-shadow: 0 0 8px -1px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+
+}
+
+.azure-sticky-header-container {
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.sticky-azure-logo {
+  display: flex;
+  align-items: center;
+}
+.sticky-azure-logo img{
+  width: 24px;
+  height: 24px;
+}
+
+.sticky-azure-logo a {
+  font-size: 18px;
+  margin-left: 12px;
+  font-weight: 600;
+  color: currentColor;
+
+}
+
+.azure-sticky-header-container ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-sale {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #000;
+  color: #1a1a1f;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 9px;
+  line-height: 1;
+  text-align: center;
+  font-family: 'latest2';
+}
+
+.free-account{
+  background-color: #89c402;
+  border: 1px solid #6f9e02;
+  border-radius: 4px;
+  color: #1a1a1f;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 9px;
+  line-height: 1;
+  text-align: center;
+  margin-left: 12px;
+}
+
+.new-to-azure-container a:hover{
+  background-color: #a9daff92;
+}
+
+@media screen and (min-width: 1024px) {
+  .on-premise-hybrid-container h2 {
+    text-align: center;
+  }
+
+  .hybrid-data {
+    display: flex;
+    width: 33.33%;
+    margin: 0;
+  }
+  .new-to-azure {
+    margin: 0;
+  }
+  .see-all-products-container {
+    text-align: center;
+  }
+  .customer-innovation-container {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .on-premise-hybrid {
+    margin: 24px 0px;
+    padding: 8px 0px 16px;
+  }
+  .on-premise-hybrid-container h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .hybrid-data-container {
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 90%;
+    box-sizing: content-box;
+    max-width: 1600px;
+    margin-inline: auto;
+  }
+  .products-service-heading-container h2 {
+    font-size: 24px;
+  }
+  .products-service-heading-container {
+    padding: 0 72px;
+  }
+  .customer-innovation-container h2 {
+    font-size: 24px;
+    margin: 0px 0px 12px;
+  }
+
+  .blank-container {
+    padding: 0;
+  }
+
+}
