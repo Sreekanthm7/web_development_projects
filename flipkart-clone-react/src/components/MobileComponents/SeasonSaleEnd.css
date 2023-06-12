@@ -1,0 +1,37 @@
+.season-end-sale {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.season-end-sale-head {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.season-end-sale-head h3 {
+    font-size: 16px;
+    font-family: 'roboto-regular';
+    color: #212121;
+    text-align: left;
+}
+
+.season-end-sale-head p {
+    font-size: 14px;
+    font-family: 'roboto-regular';
+    color: #878787;
+    text-align: left;
+}
+
+.season-end-sale-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.season-end-sale-img {
+    width: 100%;
+    height: 100%;
+}
+

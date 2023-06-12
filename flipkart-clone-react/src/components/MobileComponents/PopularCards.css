@@ -1,0 +1,37 @@
+.popular-picks-cards {
+    padding: 16px 16px 12px;
+    display: flex;
+    flex-direction: column;
+    border-right-width: 1px;
+    border-right-color: rgba(240, 240, 240, 1.00);
+    background-color: #fff;
+    justify-content: space-around;
+}
+
+.popular-picks-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.popular-picks-cards-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-picks-cards-content h3{
+    margin: 10px 0px 0px;
+    font-size: 12px;
+    font-family: 'roboto-regular';
+    color: #262626;
+    text-align: center;
+    line-height: 16px;
+}
+
+.popular-picks-cards-content p {
+    color: rgba(56, 142, 60, 1.00);
+    line-height: 24px;
+    text-align: center;
+    font-family: 'roboto-regular';
+    font-size: 14px;
+}

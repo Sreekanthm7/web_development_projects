@@ -1,0 +1,56 @@
+.desktop-nav {
+    background: #fff;
+    min-height: 112px;
+    width: 100%;
+}
+
+.desktop-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+.desktop-nav-cards {
+    padding: 12px 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.desktop-nav-img img {
+    width: 64px;
+    height: 64px;
+}
+
+.nav-title p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'roboto-medium';
+    color: #212121;
+}
+
+.desktop-nav-cards:nth-child(1) {
+    padding: 12px 8px 12px 22px;
+}
+
+.desktop-nav-cards:nth-child(10) {
+    padding: 12px 8px 12px 22px;
+}
+
+.nav-title {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.arrow-img {
+    transform: rotate(-90deg);
+    margin-left: 10px;
+}
+
+.desktop-nav-cards :hover {
+    color: #2874f0;
+}

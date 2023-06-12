@@ -1,0 +1,11 @@
+.offer-nav {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  transform: translateY(-4px);
+}
+
+.offer-nav-img img {
+  width: 100%;
+
+}
+

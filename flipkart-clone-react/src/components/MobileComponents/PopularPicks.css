@@ -1,0 +1,45 @@
+.popular-picks-cotainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-picks-top {
+  width: 100%;
+  height: 71.1111px;
+}
+
+.popular-picks-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.popular-picks-content {
+  padding: 8px 8px 4px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  bottom: 68px;
+}
+
+.popular-picks-card-container {
+  background: linear-gradient(rgb(199, 245, 144), rgb(199, 245, 144));
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 425px) {
+  .popular-picks-content {
+    bottom: 133px;
+  }
+
+  .popular-picks-top {
+    height: 110.1111px;
+  }
+}

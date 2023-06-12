@@ -1,0 +1,17 @@
+.sales-is-live-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sales-is-live-top-img img{
+    width: 100%;
+    height: 100%;
+}
+.sales-live-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sales-is-live-card-img img {
+    width: 100%;
+}

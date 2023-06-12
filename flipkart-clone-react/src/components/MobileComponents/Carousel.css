@@ -1,0 +1,15 @@
+.carousel-mobile {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-img {
+  transform: translate(0);
+}
+.carousel-img img {
+  width: 100vw;
+  object-fit: contain;
+}
+
+
+

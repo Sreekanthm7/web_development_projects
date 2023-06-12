@@ -1,0 +1,50 @@
+.data-main-card-two-img {
+    width: 230px;
+    z-index: 1;
+    height: 361px;
+    position: relative;
+  }
+  
+  .data-main-card-two-img img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 230px;
+  }
+  
+  .data-main-card-two-content {
+    top: 110px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    transform: translate(10px, -16px);
+  }
+  .data-main-card-two-content h2 {
+    font-size: 30px;
+    word-wrap: break-word;
+    line-height: 1.38;
+    font-weight: 400;
+    width: 210px;
+    font-family: "roboto-regular";
+  }
+  
+  .view-all-btn-card-two {
+    margin-top: 24px;
+    background-color: #2874f0;
+    color: #fff;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+    width: 95px;
+    height: 38px;
+    border-radius: 2px;
+    font-family: "roboto-regular";
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

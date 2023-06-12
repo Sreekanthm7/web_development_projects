@@ -1,0 +1,93 @@
+.flipkart-header {
+  height: 104px;
+  background-color: rgba(40, 116, 240, 1);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header-top-container {
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  color: rgb(255, 255, 255);
+  padding: 12px;
+}
+.hamburger-logo-container {
+  display: flex;
+}
+.flipkart-logo {
+  width: 85px;
+  margin-left: 10px;
+}
+
+.flipkart-logo img {
+  width: 100%;
+}
+
+.hamburger img {
+  transform: translate(-1px, 4px);
+}
+
+.cart-login-container {
+  display: flex;
+  align-items: center;
+}
+
+.login p {
+  margin-left: 39px;
+    margin-right: 13px;
+    font-family: 'roboto-regular';
+    color: #EAEAEA;
+}
+ .cart-icon img {
+  margin-left:  25px;
+ }
+
+ .plus-logo img {
+  width:  17px;
+  height: 16px;
+ }
+
+ .plus-logo {
+  transform: translateY(2px);
+ }
+
+ .cart-icon {
+  transform: translateY(2px);
+ }
+
+ .login {
+  transform: translateY(-1px);
+ }
+
+ .header-search-container {
+  height: 52px;
+  padding-left: 2%;
+  padding-right: 2%;
+ }
+
+ .search-bar {
+  height: 38px;
+  background-color: rgba(255,255,255,1.00);
+  display: flex;
+  align-items: center;
+  transform: translateY(7px);
+  cursor: pointer;
+ }
+
+ .search-icon {
+  margin: 10px;
+ }
+
+ .search-icon img {
+  width: 14px;
+  height: 14px;
+  transform: translateY(2px);
+ }
+
+ .search-bar p {
+  color: rgba(135,135,135,1.00);
+  font-size: 14px;
+  font-family: 'roboto-regular';
+ }

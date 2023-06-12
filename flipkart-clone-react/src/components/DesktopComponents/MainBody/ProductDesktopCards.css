@@ -1,0 +1,39 @@
+.product-desktop-cards {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 15px;
+  text-align: center;
+}
+
+.product-desktop-cards img {
+  width: 200px;
+  height: 175px;
+  margin: 12.5px 0px;
+}
+
+.product-cards-heading {
+  margin: 15px 0px 0px;
+  color: #212121;
+  font-family: "roboto-medium";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-cards-link {
+  font-size: 16px;
+  font-family: "roboto-regular";
+  padding: 8px 0px 0px;
+  color: #388e3c;
+  white-space: nowrap;
+}
+
+.product-cards-text {
+  font-size: 14px;
+  font-family: "roboto-regular";
+  padding: 7px 0px 0px;
+  color: #212121;
+  opacity: 0.6;
+}
+
