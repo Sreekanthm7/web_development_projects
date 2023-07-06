@@ -2,8 +2,6 @@ package textbooksample;
 
 import java.util.ArrayList;
 
-import javax.xml.stream.XMLOutputFactory;
-
 public class arrayListMagnet {
     public static void main(String[] args) {
         ArrayList<String> a = new ArrayList<String>();
@@ -19,21 +17,21 @@ public class arrayListMagnet {
         a.remove(2);
         printList(a);
 
-        if(a.indexOf("four") != 4) {
+        if (a.indexOf("four") != 4) {
             a.add(4, "4.2");
         }
         printList(a);
 
-        if(a.contains("two")) {
+        if (a.contains("two")) {
             a.add("2.2");
         }
         printList(a);
     }
+
     public static void printList(ArrayList<String> list) {
-        for(String element: list) {
+        for (String element : list) {
             System.out.println(element + " ");
         }
         System.out.println();
     }
 }
-          
