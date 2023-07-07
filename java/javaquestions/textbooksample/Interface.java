@@ -7,7 +7,7 @@ package textbooksample;
 // class A6 implements Printable {
 //     public void print(){
 //         System.out.println("hello world");
-        
+
 //     }
 //     public static void main(String[] args) {
 //         A6 obj = new A6();
@@ -15,7 +15,6 @@ package textbooksample;
 //         obj.print();
 //     }
 // }
-
 
 // interface Drawable {
 //     void draw();
@@ -27,15 +26,10 @@ package textbooksample;
 //     }
 // }
 
-
 class Laptop {
     public void code() {
         System.out.println("code, compile, run");
     }
-}
-
-class Desktop {
-    pubic void 
 }
 
 class Developer {
@@ -44,10 +38,10 @@ class Developer {
     }
 }
 
- class Demo {
+class Demo {
     public static void main(String[] args) {
-         Laptop lap = new Laptop();
-         Developer navin = new Developer();
-         navin.devApp(lap);
+        Laptop lap = new Laptop();
+        Developer navin = new Developer();
+        navin.devApp(lap);
     }
 }
