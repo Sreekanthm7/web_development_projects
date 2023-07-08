@@ -20,12 +20,6 @@ package textbooksample;
 //     void draw();
 // }
 
-// class Rectangle implements Drawable {
-//     public void draw(){
-//         System.out.println();
-//     }
-// }
-
 class Laptop {
     public void code() {
         System.out.println("code, compile, run");
