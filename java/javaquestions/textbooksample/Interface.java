@@ -16,10 +16,6 @@ package textbooksample;
 //     }
 // }
 
-// interface Drawable {
-//     void draw();
-// }
-
 class Laptop {
     public void code() {
         System.out.println("code, compile, run");
