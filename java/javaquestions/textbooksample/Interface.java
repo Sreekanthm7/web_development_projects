@@ -7,7 +7,7 @@ package textbooksample;
 
 class Laptop {
     public void code() {
-        System.out.println("code, compile, run..");
+        System.out.println("code, compile, run...");
     }
 }
 
