@@ -5,7 +5,7 @@ public class DooBee {
         int x = 1;
         while (x < 3) {
             System.out.println("Doo");
-            System.out.println("Bee");
+            System.out.println("Beee");
             x = x + 1;
 
         }
