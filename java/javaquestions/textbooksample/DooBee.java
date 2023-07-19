@@ -10,7 +10,7 @@ public class DooBee {
 
         }
         if (x == 3) {
-            System.out.println("Do");
+            System.out.println("Doo");
         }
     }
 }
