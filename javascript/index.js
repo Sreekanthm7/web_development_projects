@@ -4,3 +4,5 @@ fruits.reverse()
 fruits.map((item) => {
   return item
 })
+
+const animals = ["dog", "cat", "elephant", "tiger"]
