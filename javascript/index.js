@@ -7,7 +7,7 @@ fruits.map((item) => {
 
 const animals = ["dogss", "cats", "elephants", "tigers", "cheetaas"]
 
-animals.push("donkeys")
+animals.push("cow")
 
 animals.pop("dogs")
 
