@@ -9,6 +9,6 @@ const animals = ["dogss", "cats", "elephants", "tigers", "cheetaas"]
 
 animals.push("cow")
 
-animals.pop("crow")
+animals.pop("donkey")
 
 animals.length
