@@ -1,4 +1,10 @@
-const fruits = ["Orange", "Apple", "Mango", "Pine apple", "Banana"]
+const fruits = [
+  "Orange",
+  "Apple",
+  "Mango",
+  "Pine apple",
+  "Banana, custard apple",
+]
 fruits.reverse()
 
 fruits.map((item) => {
