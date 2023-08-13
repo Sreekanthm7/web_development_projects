@@ -12,3 +12,4 @@ animals.push("cow")
 animals.pop("donkeys")
 
 animals.length
+
