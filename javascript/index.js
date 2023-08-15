@@ -5,7 +5,7 @@ fruits.map((item) => {
   return item
 })
 
-const animals = ["dogss", "cats", "elephants", "tigers", "cheetaas"]
+const animals = ["dogss", "cats", "tigers", "cheetaas"]
 
 animals.push("cow")
 
