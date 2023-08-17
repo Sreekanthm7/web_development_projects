@@ -5,11 +5,10 @@ fruits.map((item) => {
   return item
 })
 
-const animals = ["dogss", "cats", "tigers", "cheetaas"]
+const animals = ["dogss", "cats", "tigers", "cheetaas", "elephant"]
 
 animals.push("cow")
 
 animals.pop("donkeys")
 
-animals.length
-console.log(animals.length)
+animals.length.log(animals.length)
