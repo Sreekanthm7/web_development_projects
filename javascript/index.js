@@ -12,3 +12,5 @@ const animals = ["dogss", "cats", "tigers", "cheetaas", "elephant"]
 // animals.pop("donkeys")
 
 // animals.length.log(animals.length)
+
+animals.map((item) => item)
