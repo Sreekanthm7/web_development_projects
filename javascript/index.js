@@ -13,4 +13,6 @@ const animals = ["dogss", "cats", "tigers", "cheetaas", "elephant"]
 
 // animals.length.log(animals.length)
 
-animals.map((item) => item)
+console.log(animals.map((item) => item))
+
+animals.push("monkey")
