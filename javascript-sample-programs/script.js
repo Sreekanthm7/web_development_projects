@@ -3,3 +3,4 @@ fruits.pop()
 fruits.push("Kiwi")
 fruits.shift()
 fruits.unshift("Lemon")
+fruits[fruits.length] = "Kiwi"
