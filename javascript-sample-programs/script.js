@@ -18,5 +18,6 @@
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // fruits.splice(0, 1);
-// const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"]
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"]
 // const citrus = fruits.slice(1)
+fruits.sort()
