@@ -35,3 +35,6 @@
 
 // console.log(`The value of a after swapping: ${a}`)
 // console.log(`The value of b after swapping: ${b}`)
+
+// const a = Math.random()
+// console.log(a)
