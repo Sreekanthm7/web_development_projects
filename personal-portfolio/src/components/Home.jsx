@@ -8,6 +8,7 @@ export default function Home() {
       <h2>News</h2>
       <h2>Contact</h2>
       <div>
+        <h1>Personal Portfolio</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et odio
           obcaecati pariatur, aspernatur blanditiis quasi sapiente aut
