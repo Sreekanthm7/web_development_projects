@@ -9,6 +9,8 @@ export default function Home() {
       <h2>Contact</h2>
       <div>
         <h1>Personal Portfolio</h1>
+        <h2>Skills</h2>
+        <ul></ul>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et odio
           obcaecati pariatur, aspernatur blanditiis quasi sapiente aut
