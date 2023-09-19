@@ -13,6 +13,7 @@ export default function Home() {
         <ul>
           <li>react</li>
           <li>javascript</li>
+          <li>java</li>
         </ul>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et odio
