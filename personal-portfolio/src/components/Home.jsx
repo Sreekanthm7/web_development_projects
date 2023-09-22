@@ -15,6 +15,7 @@ export default function Home() {
           <li>javascript</li>
           <li>java</li>
           <li>typescript</li>
+          <li>HTML</li>
         </ul>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et odio
