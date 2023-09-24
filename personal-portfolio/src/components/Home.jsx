@@ -18,6 +18,7 @@ export default function Home() {
           <li>HTML</li>
           <li>CSS</li>
           <li>sql</li>
+          <li>Node</li>
         </ul>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et odio
