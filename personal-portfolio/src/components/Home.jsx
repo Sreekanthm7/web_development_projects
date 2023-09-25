@@ -8,7 +8,6 @@ export default function Home() {
       <h2>News</h2>
       <h2>Contact</h2>
       <div>
-        <h1>Personal Portfolio</h1>
         <h2>Skills</h2>
         <ul>
           <li>react</li>
